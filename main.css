@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    background-color: #EEF5FC;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+.title {
+    color: #1A67DC;
+}
+
+img {
+    width: 70% !important;
+}
+
+.container {
+    width: 80%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+div.input {
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    border: 1px solid #D2D9E3;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+
+}
+
+div.input input {
+    border: 0;
+    width: 75%;
+    padding: 8px;
+    line-height: 15px;
+}
+
+input:active, input:hover, input:focus {
+    border: 0 !important;
+    outline: none;
+}
+
+.input label {
+    display: block;
+    padding-bottom: 8px;
+    font-weight: bold;
+
+}
+
+div.form {
+    margin: 0 auto !important;
+}
+
+div.form button.submit {
+    width: 80%;
+    border-radius: 28px;
+    margin: 24px auto;
+    padding: 15px;
+    background-color: #1A67DC;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+div.form button:hover {
+    background-color: blue;
+}
+
+button.far {
+    line-height: 15px;
+    background-color: white;
+    border: 0;
+    outline: 0;
+
+
+}
+
+button.far:hover {
+    background-color: white !important;
+    color: red !important;
+
+
+}
+
+div.clear {
+    display: block;
+    clear: both;
+}
+
+@media screen and (min-width:800px) {
+
+    div.form button.submit {
+        width: 73%;
+    }
+
+    div.spacing {
+        height: 60px;
+    }
+
+    .container div.float {
+        float: left;
+        display: block;
+        width: 50% !important;
+    }
+
+    div.container {
+        padding: 50px;
+    }
+
+    div.input input {
+        width: 77%;
+
+    }
+
+    div.input input {
+        width: 85%;
+    }
+
+    div.input {
+        width: 70% !important;
+    }
+
+}
